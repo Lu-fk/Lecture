@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+html { 
+	background: #63bad8;  
+	text-align: center; 
+}
+
+body{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+}
+
+div#all{
+	position:absolute;
+	left:150px;
+	padding: 10px;	
+}
+
+div#htittle{
+	margin: 0 0 0 12px;
+	padding:0;
+	border:0;
+	width:1100px;
+	height:90px;
+	background: #c5e6ea;
+}
+
+
+div#htittle h1{
+	position:relative;
+	top:25px;
+
+}
+

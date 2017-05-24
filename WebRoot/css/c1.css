@@ -1,0 +1,86 @@
+@CHARSET "UTF-8";
+
+html { 
+	background: #63bad8;  
+	text-align: center; 
+}
+
+body{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+}
+
+#header {
+	background: #c5e6ea;
+	padding: 8px 0px 5px 20px;
+}
+
+
+#darkbanner{
+	margin: 20px 0 0 -18px;
+	padding: 8px 10px 10px 40px;
+	background: #424242;
+	position: relative;		
+}
+
+
+
+#content{
+	background-color: #fff;
+	text-align: left;  
+}
+
+body#login #wrapper{
+	width: 370px;
+	padding: 10px 20px 0 20px;
+	position: relative;
+	margin: 0 auto 0 auto;
+}
+
+div#darkbanner h2{
+	color:#fff;
+}
+
+body#login fieldset{
+	width: 330px;
+	border: 0;
+	margin: 0px;
+	display: block;
+	margin-top: -30px;
+	background-color: #fff;
+	padding-top: 20px;
+}
+
+#user_name,#user_password{
+	height: 20px;
+	width: 238px;	
+	margin-bottom: 15px;
+	padding: 3px;
+	font: 16px 'Lucida Grande', arial, sans-serif;
+}
+
+body#login label{
+	float: left;
+	text-align: right;
+	width: 70px;
+	margin-right: 10px;
+	padding-top: 7px;
+}
+
+:focus {
+	outline: 0;
+}
+
+h1{
+	position: relative;	
+	left:50px;
+}
+
+body#login .form button{
+	padding: 3px;
+    display:block;
+    float:left;
+    margin:0 3px 0 80px;
+    _margin-left: 42px;
+}

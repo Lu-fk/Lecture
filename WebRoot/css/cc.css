@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+ #d1{
+  border : 1px solid #aaaaaa;
+  margin:0 auto 0 auto;
+  width:1000px; 
+  height:600px; 
+  overflow:hidden;
+  position:relative;
+ }
+ 
+ #adv,#num{
+  position:absolute;
+ }
+ 
+ ul#adv li{
+  float:left;
+  list-style:none;
+  display:inline;
+ }
+ ul#adv img{
+  width:1000px; 
+  height:600px;
+  display:block;
+ }
+ 
+ #num{
+  
+  bottom:5px;
+ }
+ 
+ #num li{
+  float: left;
+  color: #FF7300;
+  text-align: center;
+  line-height: 16px;
+  width: 16px;
+  height: 16px;
+  font-family: Arial;
+  font-size: 12px;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 3px 1px;
+  border: 1px solid #FF7300;
+  
+ }
+ 
+ .on{
+  line-height: 21px;
+  width: 21px;
+  height: 21px;
+  font-size: 16px;
+  margin: 0 1px;
+  border: 0;
+  background-color:red;
+  font-weight: bold;
+ }
